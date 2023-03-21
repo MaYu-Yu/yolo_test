@@ -1,0 +1,10 @@
+../darknet detector train obj.data yolov3-tiny.cfg ../darknet53.conv.74
+
+../../darknet/darknet  detector test cfg.orange/obj.data cfg.orange/yolov3-tiny.cfg cfg.orange/weights/yolo_18200.weights {要測試的相片路徑}
+
+
+
+
+d:\darknet\darknet.exe detector train cfg\voc.data cfg\yolov3-voc.cfg darknet53.conv.74
+
+d:\darknet\darknet.exe detector test cfg\voc.data cfg\yolov3-voc.cfg backup\yolov3-voc_final.weights data\voc\VOCdevkit\VOC2007\JPEGImages\000004.jpg

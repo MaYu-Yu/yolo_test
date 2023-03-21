@@ -1,0 +1,5 @@
+下載anaconda,cuda,cudnn,pytorch
+把cudnn解壓後放到cuda資料夾裡
+conda create -n pytorch python=3.6
+activate pytorch
+pip install torch===1.2.0 torchvision===0.4.0 -f https://download.pytorch.org/wh1/torch_stable.html

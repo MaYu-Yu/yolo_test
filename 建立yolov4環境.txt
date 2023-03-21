@@ -1,0 +1,4 @@
+conda create -n yolov4 python=3.8 -y
+pip install opencv-contrib-python
+pytorch 上網拿載點
+pip install matplotlib

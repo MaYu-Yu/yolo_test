@@ -1,0 +1,5 @@
+classes= 1
+train  = cfg.roli\train.txt
+valid  = cfg.roli\test.txt
+names = cfg.roli\obj.names
+backup = cfg.roli\weights
